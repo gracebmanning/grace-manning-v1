@@ -1,0 +1,63 @@
+@font-face{
+    font-family: "Royal Acidbath Open";
+    src: url("../../fonts/Royalacid_open.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "IFC Insane Rodeo";
+    src: url("../../fonts/IFC_INSANE_RODEO.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Computer Font";
+    src: url("../../fonts/Computerfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* padding: top right bottom left */
+.mainBackground{
+    background: #FFFDF2;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+.mainContainer{
+    background-color: #FFF2D4;
+    padding: 10px 50px 10px 50px;
+    margin: 0px 175px 0px 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hiImGrace{
+    align-self: center;
+    text-align: center;
+
+    font-family: "Royal Acidbath Open";
+    color: #E29D00;
+    font-size: 120px;
+}
+
+.student{
+    font-family: "Computer Font";
+    color: green;
+    font-size: 70px;
+}
+
+.minor {
+    font-family: "Computer Font";
+    font-size: 40px;
+}
+
+.design{
+    align-self: center;
+    text-align: center;
+
+    font-size: 20px;
+}
