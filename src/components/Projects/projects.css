@@ -4,17 +4,32 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
-    margin: 50px 175px 0px 175px;
+    margin: 50px 70px 0px 70px;
 }
 
 
 .projectTile{
     align-self: center;
     text-align: center;
-    width: 45%;
+    width: 28%;
     padding: 20px;
 
     background-color: #FFF2D4;
+    color: #624608;
     border-radius: 25px;
+    font-family: 'Asul', sans-serif;
     font-size: 20px;
+}
+
+.projIcon{
+    text-decoration: none;
+    margin: 0px;
+    color: #624608;
+    font-size: 50px;
+}
+
+.projIcon:hover{
+    background: #FFFDF2;
+    border-radius: 20px;
+    transition: ease-in-out 0.4s;
 }

@@ -13,6 +13,13 @@
 }
 
 /* padding: top right bottom left */
+.mainContainerBackground{
+    background-image: url("../../images/rollinghills.jpg");
+    padding: 20px;
+    margin: 0px 70px 0px 70px;
+    border-radius: 25px;
+}
+
 .mainContainer{
     display: flex;
     flex-direction: column;
@@ -23,6 +30,7 @@
     margin: 0px 175px 0px 175px;
 
     background-color: #FFF2D4;
+   
     border-radius: 25px;
 }
 
@@ -33,10 +41,7 @@
     align-items: center;
 }
 
-.cowImage{
-    height: 40%;
-    width: 40%;
-}
+
 
 .hiImGrace{
     text-align: center;
@@ -64,4 +69,13 @@
     background: #FFFDF2;
     border-radius: 20px;
     transition: ease-in-out 0.4s;
+}
+
+.cowImage{
+    height: 40%;
+    width: 40%;
+}
+
+.notCow{
+    font-size: 20px;
 }

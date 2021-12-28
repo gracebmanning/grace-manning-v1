@@ -6,35 +6,79 @@
 }
 
 .aboutContainer{
-    background-color: #FFF2D4;
-    padding: 10px 50px 10px 50px;
-    margin: 50px 175px 0px 175px;
-    border-radius: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 500px;
-}
-.student{
-    font-family: "Computer Font";
-    color: green;
-    font-size: 40px;
+    align-items: center;
+    
+    padding: 50px 50px 50px 50px;
+    margin: 50px 70px 0px 70px;
+
+    background-color: #E8E8FF;
+    border-radius: 25px;
+
+    font-family: 'Asul', sans-serif;
+    font-size: 18px;
 }
 
-.campus-involvements {
-    font-family: "Computer Font";
-    font-size: 35px;
+.aboutTiles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
+.tileTitle{
+    color: #209d9d;
+}
 
-.past {
-    font-family: Arial, Helvetica, sans-serif;
+.past{
+    align-self: center;
+    text-align: center;
+
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+
+    background: white;
+    border-radius: 25px;
+    
+    
+}
+
+.current{
+    align-self: center;
+    text-align: center;
+    
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+
+    background: white;
+    border-radius: 25px;
+}
+
+.linksContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.bwLinkContainer{
+    align-self: center;
+    text-align: center;
+    width: 15%;
+    padding: 15px;
+    margin: 10px;
+
+    background-color: black;
+    border-radius: 5px;
+}
+
+.bwLink{
+    text-decoration: none;
+    color: white;
     font-size: 20px;
-    color: red;
-}
-
-.currently {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: purple;
 }

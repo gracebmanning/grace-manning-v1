@@ -6,10 +6,43 @@
     align-items: center;
     
     padding: 10px 50px 10px 50px;
-    margin: 50px 175px 50px 175px;
+    margin: 50px 70px 50px 70px;
 
-    background-color: #FFF2D4;
+    background-color: #ebebeb;
     border-radius: 25px;
-
     height: 500px;
+
+    font-family: 'Asul', sans-serif;
+    font-size: 18px;
+}
+
+
+.contactMe{
+    color: #209d9d;
+}
+
+.emailMe{
+    color: #ff431d;
+}
+
+.socialIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    padding-bottom: 30px;   
+}
+
+.icon{
+    margin: 10px;
+    padding: 10px;
+    color: #209d9d;
+    font-size: 60px;
+    background: #FFFDF2;
+    border-radius: 20px;
+}
+
+.icon:hover{
+    background: #E8E8FF;
+    border-radius: 20px;
+    transition: ease-in-out 0.4s;
 }

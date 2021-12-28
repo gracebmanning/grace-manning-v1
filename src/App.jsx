@@ -5,6 +5,7 @@ import Projects from "./components/Projects/projects";
 import About from "./components/About/about";
 import Contact from "./components/Contact/contact";
 
+
 const App = () => {
   return (
     <div class="container">
