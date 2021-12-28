@@ -1,0 +1,20 @@
+/* padding: top right bottom left */
+.projectsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0px 10px 0px;
+    margin: 50px 175px 0px 175px;
+}
+
+
+.projectTile{
+    align-self: center;
+    text-align: center;
+    width: 45%;
+    padding: 20px;
+
+    background-color: #FFF2D4;
+    border-radius: 25px;
+    font-size: 20px;
+}

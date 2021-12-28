@@ -1,4 +1,5 @@
 import "./main.css";
+import { FaLinkedin, FaGithub, FaInstagram, FaMedium } from 'react-icons/fa';
 
 const Main = () => {
     return(
@@ -8,21 +9,19 @@ const Main = () => {
                     <h1>Hi, I'm</h1>
                     <h1>Grace!</h1>
                 </div>
-
-                <br/><br/>
-
-                <div class="student">
-                    <p>I am a 3rd-year Computer Science student at UC Irvine.</p>
-                </div>
-                <div class="minor">
-                    <p>&gt;&gt; scroll to continue...</p>
-                </div>
-
-                <br/><br/>
-
-                <div class="design">
-                    <p>I like to design websites, apps, and more!</p>
-                    <h4>view my design work here</h4>
+                <div class="socialIcons">
+                    <a href="https://www.linkedin.com/in/grace-manning/" target="_blank" rel="noreferrer">
+                        <FaLinkedin class="icon"/>
+                    </a>
+                    <a href="https://github.com/gracebmanning/" target="_blank" rel="noreferrer">
+                        <FaGithub class="icon"/>
+                    </a>
+                    <a href="https://www.instagram.com/gracebmanning/" target="_blank" rel="noreferrer">
+                        <FaInstagram class="icon"/>
+                    </a>
+                    <a href="https://medium.com/@gracebmanning" target="_blank" rel="noreferrer">
+                        <FaMedium class="icon"/>
+                    </a>
                 </div>
             </div>
             

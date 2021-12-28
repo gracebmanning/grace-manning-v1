@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Computer Font";
+    src: url("../../fonts/Computerfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.aboutContainer{
+    background-color: #FFF2D4;
+    padding: 10px 50px 10px 50px;
+    margin: 50px 175px 0px 175px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.student{
+    font-family: "Computer Font";
+    color: green;
+    font-size: 40px;
+}
+
+.campus-involvements {
+    font-family: "Computer Font";
+    font-size: 35px;
+}
+
+
+.past {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: red;
+}
+
+.currently {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: purple;
+}

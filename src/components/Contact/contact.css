@@ -1,0 +1,13 @@
+/* padding: top right bottom left */
+.contactContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    padding: 10px 50px 10px 50px;
+    margin: 50px 175px 50px 175px;
+
+    background-color: #FFF2D4;
+    border-radius: 25px;
+}
