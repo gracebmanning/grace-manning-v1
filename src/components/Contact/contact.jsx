@@ -1,12 +1,12 @@
 import "./contact.css";
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 
 const Contact = () => {
     return(
         <div class="contactBackground" id="contact">
             <div class="contactContainer">
                 <h2 class="contactMe">Contact Me!</h2>
-                <p class="emailMe">Email me at gracebmanning@gmail.com</p>
                 <div class="socialIcons">
                     <a href="https://www.linkedin.com/in/grace-manning/" target="_blank" rel="noreferrer">
                         <FaLinkedin class="icon"/>
@@ -18,6 +18,8 @@ const Contact = () => {
                         <FaInstagram class="icon"/>
                     </a>
                 </div>
+                <p class="emailMe">reach me by email at<br/><b>gracebmanning@gmail.com</b></p>
+                <div class="emailIcon"><MdEmail/></div>
             </div>
 
             
