@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.b728de3e.css",
+    "main.css": "/static/css/main.01996e1b.css",
     "main.js": "/static/js/main.6166450f.js",
     "static/media/rollinghills.jpg": "/static/media/rollinghills.c624e34df4f22e3a4d3a.jpg",
     "static/media/cow.png": "/static/media/cow.798b7f9747eb51140eca.png",
@@ -8,11 +8,11 @@
     "static/media/Royalacid_open.woff": "/static/media/Royalacid_open.ba9dbaee26c54a8851c5.woff",
     "static/media/Computerfont.woff": "/static/media/Computerfont.15e5644e4b226a5ba138.woff",
     "index.html": "/index.html",
-    "main.b728de3e.css.map": "/static/css/main.b728de3e.css.map",
+    "main.01996e1b.css.map": "/static/css/main.01996e1b.css.map",
     "main.6166450f.js.map": "/static/js/main.6166450f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b728de3e.css",
+    "static/css/main.01996e1b.css",
     "static/js/main.6166450f.js"
   ]
 }
