@@ -1,3 +1,5 @@
+/* padding: top right bottom left */
+
 @font-face {
     font-family: "Computer Font";
     src: url("../../fonts/Computerfont.woff") format("woff");
@@ -21,11 +23,19 @@
     font-size: 18px;
 }
 
+.student{
+    margin: 10px;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+}
+
 .aboutTiles{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    margin: 10px 0px 10px 0px;
 }
 
 .tileTitle{
@@ -41,9 +51,7 @@
     margin: 10px;
 
     background: white;
-    border-radius: 25px;
-    
-    
+    border-radius: 25px;   
 }
 
 .current{

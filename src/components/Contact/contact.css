@@ -1,4 +1,11 @@
 /* padding: top right bottom left */
+.contactContainerBackground{
+    background-image: url("../../images/rollinghills.jpg");
+    padding: 20px;
+    margin: 50px 70px 50px 70px;
+    border-radius: 25px;
+}
+
 .contactContainer{
     display: flex;
     flex-direction: column;
@@ -6,9 +13,9 @@
     align-items: center;
     
     padding: 10px 50px 10px 50px;
-    margin: 50px 70px 50px 70px;
+    margin: 0px 175px 0px 175px;
 
-    background-color: #ebebeb;
+    background-color: #FFF2D4;
     border-radius: 25px;
 
     font-family: 'Asul', sans-serif;
@@ -23,7 +30,8 @@
 .socialIcons{
     display: flex;
     flex-direction: row;
-    align-items: center;    
+    align-items: center;
+    margin: 10px;
 }
 
 .icon{
