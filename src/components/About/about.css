@@ -96,14 +96,77 @@
         padding: 10px 20px 10px 20px;
         margin: 50px 20px 0px 20px;
     }
-    
-}
 
+    .bwLinkContainer{
+        width: 30%;
+    }
+
+    .tileTitle{
+        font-size: 24px;
+    }
+}
 
 @media screen and (max-width: 780px){
     .aboutContainer{
-        padding: 10px 20px 10px 20px;
+        padding: 10px 10px 10px 10px;
         margin: 50px 20px 0px 20px;
     }
     
+    .aboutTitle{
+        font-size: 20px;
+    }
+
+    .student{
+        margin: 5px;
+        font-size: 18px;
+        width: 80%;
+    }
+
+    .aboutTiles{
+        flex-direction: column;
+        justify-content: center;
+        margin: 5px 0px 5px 0px;
+    }
+
+    .tileTitle{
+        color: #209d9d;
+        font-size: 18px;
+    }
+
+    .past{
+        width: 80%;
+        padding: 10px 2px;
+        margin: 5px 2px;
+    
+        background: white;
+        border-radius: 25px;
+        
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    
+    .current{
+        width: 80%;
+        padding: 10px 2px;
+        margin: 5px 2px;
+    
+        background: white;
+        border-radius: 25px;
+
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .linksContainer{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bwLinkContainer{
+        width: 65%;
+    }
+
+    .bwLink{
+        font-size: 18px;
+    }
 }

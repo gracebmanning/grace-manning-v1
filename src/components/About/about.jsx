@@ -4,7 +4,7 @@ const About = () => {
     return(
         <div class="aboutBackground" id="about">
             <div class="aboutContainer">
-                <h2>A little bit about me:</h2>
+                <h2 class="aboutTitle">A little bit about me:</h2>
                 <div class="student">
                     <p>I am a 3rd-year Computer Science student at UC Irvine, with a minor in Film &amp; Media Studies.</p>
                 </div>
@@ -25,7 +25,7 @@ const About = () => {
                         <p>&amp; Marketing Chair at WICS UCI.</p>
                     </div>
                 </div>
-                <h3>Looking for a more detailed breakdown?</h3>
+                <p><b>Looking for a more detailed breakdown?</b></p>
                 <div class="linksContainer">
                     <div class="bwLinkContainer">
                         <a class="bwLink" href="https://www.linkedin.com/in/grace-manning/" target="_blank" rel="noreferrer">
