@@ -17,7 +17,7 @@
     color: #624608;
     border-radius: 25px;
     font-family: 'Asul', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .projIcon{
@@ -35,8 +35,7 @@
 
 @media screen and (max-width: 1100px){
     .projectTile{
-        width: 20%;
-        font-size: 18px;
+        width: 25%;
     }
 
     .projIcon{
@@ -56,7 +55,6 @@
     .projectTile{
         width: 90%;
         margin: 10px 0px 0px 0px;
-        font-size: 18px;
     }
 
     .projIcon{
