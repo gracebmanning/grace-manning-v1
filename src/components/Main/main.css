@@ -70,6 +70,11 @@
         font-size: 90px;
     }
 
+    .cowImage{
+        height: 50%;
+        width: 50%;
+    }
+
     .notCow{
         font-size: 16px;
     }
@@ -87,7 +92,12 @@
     }
     
     .hiImGrace{
-        font-size: 60px;
+        font-size: 70px;
+    }
+
+    .cowImage{
+        height: 50%;
+        width: 50%;
     }
 
     .notCow{
