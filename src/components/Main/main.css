@@ -27,7 +27,7 @@
     align-items: center;
     
     padding: 10px 50px 10px 50px;
-    margin: 0px 175px 0px 175px;
+    margin: 0px 140px 0px 140px;
 
     background-color: #FFF2D4;
    
@@ -36,26 +36,61 @@
 
 .textAndIcons{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
-
-
 
 .hiImGrace{
     text-align: center;
     font-family: "Royal Acidbath Open";
     color: #E29D00;
     font-size: 100px;
-    margin-right: 20px;
 }
 
 .cowImage{
-    height: 40%;
-    width: 40%;
+    height: 45%;
+    width: 45%;
 }
 
 .notCow{
     font-size: 20px;
+}
+
+@media screen and (max-width: 1100px){
+    .mainContainerBackground{
+        margin: 0px 20px 0px 20px;
+    }
+    .mainContainer{
+        padding: 10px 20px 10px 20px;
+        margin: 0px 20px 0px 20px;
+    }
+    
+    .hiImGrace{
+        font-size: 90px;
+    }
+
+    .notCow{
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 780px){
+    .mainContainerBackground{
+        margin: 0px 20px 0px 20px;
+    }
+
+    .mainContainer{
+        padding: 10px 20px 10px 20px;
+        margin: 0px 20px 0px 20px;
+    }
+    
+    .hiImGrace{
+        font-size: 60px;
+    }
+
+    .notCow{
+        font-size: 14px;
+    }
 }

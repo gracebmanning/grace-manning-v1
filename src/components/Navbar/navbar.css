@@ -46,3 +46,29 @@
     transition: ease-in-out 0.2s;
     color: #E29D00;
 }
+
+@media screen and (max-width: 780px){
+    .nav{
+        padding: 0px;
+        margin: 0px 0px 10px 0px;
+        align-self: center;
+        width: 100%;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .tagline{
+        font-size: 16px;
+    }
+
+    .navItems{
+        padding: 5px;
+    }
+
+    .navItem{
+        font-size: 18px;
+    }
+
+}

@@ -7,7 +7,6 @@
     margin: 50px 70px 0px 70px;
 }
 
-
 .projectTile{
     align-self: center;
     text-align: center;
@@ -32,4 +31,36 @@
     background: #FFFDF2;
     border-radius: 20px;
     transition: ease-in-out 0.4s;
+}
+
+@media screen and (max-width: 1100px){
+    .projectTile{
+        width: 20%;
+        font-size: 18px;
+    }
+
+    .projIcon{
+        margin-top: 5px;
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .projectsContainer{
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 0px 10px 0px;
+        margin: 10px 20px 0px 20px;
+    }
+
+    .projectTile{
+        width: 90%;
+        margin: 10px 0px 10px 0px;
+        font-size: 18px;
+    }
+
+    .projIcon{
+        margin-top: 5px;
+        font-size: 35px;
+    }
 }
