@@ -6,7 +6,7 @@ const About = () => {
             <div class="aboutContainer">
                 <h2 class="aboutTitle">A little bit about me:</h2>
                 <div class="student">
-                    <p>I am a 3rd-year Computer Science student at UC Irvine, with a minor in Film &amp; Media Studies.</p>
+                    <p>I am a 3rd-year Computer Science student at UC Irvine, with a minor in Informatics.</p>
                 </div>
 
                 <div class="aboutTiles">
@@ -33,7 +33,7 @@ const About = () => {
                         </a>
                     </div>
                     <div class="bwLinkContainer">
-                        <a class="bwLink" href="https://drive.google.com/file/d/1qtih-bJcLpVHc_zdPKEJiMFrBLuoXNzF/view?usp=sharing" target="_blank" rel="noreferrer">
+                        <a class="bwLink" href="https://drive.google.com/file/d/17grKhnX2CD-TAqfCSaqwZXZBjKa7PwKi/view?usp=sharing" target="_blank" rel="noreferrer">
                             view my resume
                         </a>
                     </div>
