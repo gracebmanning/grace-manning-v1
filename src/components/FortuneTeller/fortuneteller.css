@@ -49,6 +49,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90px;
 }
 
 .hand-back-button{
@@ -63,7 +64,7 @@ a:visited, a:link, a:active{
     font-family: 'Asul', sans-serif;
     text-decoration: none;
     color: black;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .back-text a{
@@ -138,9 +139,5 @@ a:visited, a:link, a:active{
 
     .hand-back-button{
         width: 70px;
-    }
-
-    .back-text{
-        font-size: 14px;
     }
 }
