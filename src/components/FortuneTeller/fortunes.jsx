@@ -13,7 +13,7 @@ export const fortunesList = [
     "Your hair looks good! Don't change it. NEVER CHANGE YOUR HAIR. It will bring good fortune to you in the future.",
     "The next pair of shoes you buy will be your last.",
     "On this upcoming Wednesday, it is in your best interest to wear a monochrome baby blue ensemble.",
-    "For your safety, avoid entering nightclubs, any Foot Locker location, and the closest Trader Joe's until further notice. Thank me later.",
+    "For your safety: avoid entering nightclubs, any Foot Locker location, and the closest Trader Joe's until further notice. Thank me later.",
     "You will learn the true value of friendship this upcoming Thursday.",
     "Wear your seatbelt! Wouldn't want to repeat what happened last week...",
     "Soon you will enter a higher state of consciousness and there's no going back...say your goodbyes now.",
