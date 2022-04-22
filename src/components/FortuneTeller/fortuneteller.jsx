@@ -46,8 +46,11 @@ class FortuneTeller extends React.Component {
                             <p class="your-fortune-is">Your fortune is...</p>
                             <p class="fortune-text">{fortunesList[Math.floor(Math.random()*fortunesList.length)]}</p>
                         </div>
-                    </div>  
-
+                    </div>
+                    <div class="fortunes-footer">
+                        <p>for inquiries</p>
+                        <p>email gracebmanning@gmail.com</p>
+                    </div>
                 </div>
             </div>
         );

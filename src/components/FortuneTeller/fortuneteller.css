@@ -7,7 +7,7 @@
 
 .fortunes-outer-container{
     height: 100vh;
-    background-color: aliceblue;
+    background-color: #E8E8FF;
 }
 
 .fortunes-container{
@@ -56,10 +56,6 @@
     width: 90px;
 }
 
-a:visited, a:link, a:active{
-    text-decoration: none;
-    color: black;
-}
 .back-text {
     font-family: 'Asul', sans-serif;
     text-decoration: none;
@@ -67,7 +63,7 @@ a:visited, a:link, a:active{
     font-size: 14px;
 }
 
-.back-text a{
+.back-text a:visited, a:link, a:active{
     font-family: 'Asul', sans-serif;
     text-decoration: none;
     color: black;
@@ -84,18 +80,19 @@ a:visited, a:link, a:active{
 }
 
 .get-fortune-button{
-    background-color: lightcoral;
+    background-color: #065C5C;
+    color: white;
     font-family: 'Asul', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     width: 200px;
-    height: 50px;
+    height: 60px;
     border: none;
     border-radius: 5%;
 }
 
 .get-fortune-button:hover{
     cursor: pointer;
-    color: white;
+    background-color: #044040;
     transition: ease-in-out 0.3s;
 }
 
@@ -111,14 +108,22 @@ a:visited, a:link, a:active{
 
 .your-fortune-is{
     margin: 10px;
-    font-size: 30px;
+    font-size: 40px;
+    font-family: 'IM Fell Great Primer', serif;
 }
 
 .fortune-text{
     margin: 10px;
+    padding: 20px;
     width: 80%;
     text-align: center;
     font-size: 40px;
+    background-color: black;
+    color: white;
+}
+
+.fortunes-footer{
+    text-align: center;
 }
 
 @media screen and (max-width: 1100px){
@@ -134,7 +139,7 @@ a:visited, a:link, a:active{
 
 @media screen and (max-width: 780px){
     .fortunes-title{
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .hand-back-button{
