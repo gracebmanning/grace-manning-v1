@@ -5,13 +5,6 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: "IFC Insane Rodeo";
-    src: url("../../fonts/IFC_INSANE_RODEO.woff") format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
 /* padding: top right bottom left */
 .mainContainerBackground{
     background-image: url("../../images/rollinghills.jpg");

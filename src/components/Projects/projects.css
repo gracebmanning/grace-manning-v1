@@ -20,6 +20,21 @@
     font-size: 18px;
 }
 
+#fortune-teller {
+    width: 100%;
+}
+
+.link-text{
+    text-decoration: none;
+    color: #624608;
+}
+
+.hand-image{
+    transform: scaleX(-1);
+    width: 100px;
+    margin-top: 15px;
+}
+
 .projIcon{
     text-decoration: none;
     margin: 0px;
@@ -38,6 +53,10 @@
         width: 25%;
     }
 
+    #fortune-teller{
+        width: 25%;
+    }
+
     .projIcon{
         margin-top: 5px;
         font-size: 35px;
@@ -53,6 +72,11 @@
     }
 
     .projectTile{
+        width: 90%;
+        margin: 10px 0px 0px 0px;
+    }
+
+    #fortune-teller{
         width: 90%;
         margin: 10px 0px 0px 0px;
     }

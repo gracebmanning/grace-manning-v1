@@ -1,0 +1,129 @@
+@font-face{
+    font-family: "TiltPenX";
+    src: url("../../fonts/TiltPenX.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fortunes-outer-container{
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+.fortunes-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fortunes-page-top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+
+.fortunes-title-container{
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.orange-tape{
+    width: 80%;
+    height: 150px;
+}
+
+.fortunes-title{
+    position: absolute;
+    font-family: "TiltPenX";
+    font-size: 100px;
+}
+
+.fortunes-back-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hand-back-button{
+    width: 100px;
+}
+
+a:visited, a:link, a:active{
+    text-decoration: none;
+    color: black;
+}
+.back-text {
+    font-family: 'Asul', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.back-text a{
+    font-family: 'Asul', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.fortunes-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Asul', sans-serif;
+    margin: 10px;
+    padding: 10px;
+}
+
+.get-fortune-button{
+    background-color: lightcoral;
+    font-family: 'Asul', sans-serif;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5%;
+}
+
+.get-fortune-button:hover{
+    cursor: pointer;
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+
+.fortunes-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    width: 60vw;
+}
+
+.your-fortune-is{
+    margin: 10px;
+    font-size: 30px;
+}
+
+.fortune-text{
+    margin: 10px;
+    width: 80%;
+    text-align: center;
+    font-size: 40px;
+}
+
+@media screen and (max-width: 1100px){
+    
+}
+
+
+@media screen and (max-width: 780px){
+    
+}

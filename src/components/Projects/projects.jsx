@@ -1,10 +1,24 @@
 import "./projects.css";
 import { FaBehanceSquare, FaMedium } from 'react-icons/fa';
 import { SiSociety6 } from 'react-icons/si';
+import {Link} from 'react-router-dom';
+import handbackbutton from "../../images/hand-pointing-left.png";
 
 const Projects = () => {
     return(
         <div class="projectsBackground" id="projects">
+
+            <div class="projectsContainer">
+                <div class="projectTile" id="fortune-teller">
+                    <Link to="/fortune-teller">
+                        <p class="link-text">want to test your luck today?</p>
+                        <h4 class="link-text">try out my new fortune teller!</h4>
+                        <img src={handbackbutton} alt="hand pointing left" class="hand-image"/>
+                    </Link>
+                    
+                </div>
+            </div>
+
             <div class="projectsContainer">
 
                 <div class="projectTile">
