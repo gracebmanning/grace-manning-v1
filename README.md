@@ -1,5 +1,5 @@
 # Grace Manning personal website
 
-Created using React.
+Created using React
 
-Last updated JAN 2022
+Last updated APRIL 2022
