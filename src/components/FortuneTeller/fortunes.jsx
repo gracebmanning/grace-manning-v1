@@ -18,5 +18,6 @@ export const fortunesList = [
     "Wear your seatbelt! Wouldn't want to repeat what happened last week...",
     "Soon you will enter a higher state of consciousness and there's no going back...say your goodbyes now.",
     "You will soon feel an intense urge to do arts-and-crafts...",
-    "You will soon find yourself upside down -- don't panic! Go with the flow."
+    "You will soon find yourself upside down -- don't panic! Go with the flow.",
+    "Bring tissues, your next pasta experience will be real, raw, and emotional."
 ]
