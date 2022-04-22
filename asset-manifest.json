@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.33d9567b.css",
+    "main.css": "/static/css/main.45e16195.css",
     "main.js": "/static/js/main.8b75a26f.js",
     "static/media/tape2.png": "/static/media/tape2.ad15be7a0934be9f4edf.png",
     "static/media/hand-pointing-left.png": "/static/media/hand-pointing-left.a692aef69c23a1ad906f.png",
@@ -10,11 +10,11 @@
     "static/media/Computerfont.woff": "/static/media/Computerfont.15e5644e4b226a5ba138.woff",
     "static/media/TiltPenX.woff": "/static/media/TiltPenX.7c88f853898f836e9770.woff",
     "index.html": "/index.html",
-    "main.33d9567b.css.map": "/static/css/main.33d9567b.css.map",
+    "main.45e16195.css.map": "/static/css/main.45e16195.css.map",
     "main.8b75a26f.js.map": "/static/js/main.8b75a26f.js.map"
   },
   "entrypoints": [
-    "static/css/main.33d9567b.css",
+    "static/css/main.45e16195.css",
     "static/js/main.8b75a26f.js"
   ]
 }
