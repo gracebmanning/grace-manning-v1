@@ -5,16 +5,18 @@ import { fortunesList } from "./fortunes";
 import orangetape from "../../images/tape2.png";
 import handbackbutton from "../../images/hand-pointing-left.png"
 
+var displayFortune = false;
 
 class FortuneTeller extends React.Component {
     constructor(props){
         super(props);
         this.state = {fortune: ""};
-
         this.handleClick = this.handleClick.bind(this);
     }
 
     handleClick(){
+        displayFortune = true;
+        // document.getElementById("fortune-text-box").style.backgroundColor="black";
         this.setState(fortune => (
             fortunesList[Math.floor(Math.random()*fortunesList.length)]
         ));
@@ -44,7 +46,9 @@ class FortuneTeller extends React.Component {
                         </button>
                         <div class="fortunes-wrapper">
                             <p class="your-fortune-is">Your fortune is...</p>
-                            <p class="fortune-text">{fortunesList[Math.floor(Math.random()*fortunesList.length)]}</p>
+                            <p class="fortune-text" id="fortune-text-box">
+                                {displayFortune ? fortunesList[Math.floor(Math.random()*fortunesList.length)] : null}
+                            </p>
                         </div>
                     </div>
                     <div class="fortunes-footer">
