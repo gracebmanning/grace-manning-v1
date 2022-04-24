@@ -134,6 +134,10 @@
     .fortunes-title{
         font-size: 55px;
     }
+
+    .fortune-text{
+        font-size: 30px;
+    }
 }
 
 
@@ -144,5 +148,9 @@
 
     .hand-back-button{
         width: 70px;
+    }
+
+    .fortune-text{
+        font-size: 20px;
     }
 }
