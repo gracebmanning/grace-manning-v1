@@ -135,6 +135,10 @@
         font-size: 55px;
     }
 
+    .your-fortune-is{
+        font-size: 30px;
+    }
+
     .fortune-text{
         font-size: 30px;
     }
@@ -150,7 +154,11 @@
         width: 70px;
     }
 
+    .your-fortune-is{
+        font-size: 25px;
+    }
+
     .fortune-text{
-        font-size: 20px;
+        font-size: 25px;
     }
 }
