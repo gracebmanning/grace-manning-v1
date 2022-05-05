@@ -63,7 +63,7 @@
     font-size: 14px;
 }
 
-.back-text a:visited, a:link, a:active{
+.back-text :visited, :link, :active{
     font-family: 'Asul', sans-serif;
     text-decoration: none;
     color: black;
