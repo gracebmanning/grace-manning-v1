@@ -34,11 +34,18 @@
     align-items: center;
 }
 
-.hiImGrace{
+.hiIm{
     text-align: center;
     font-family: "Royal Acidbath Open";
     color: #E29D00;
-    font-size: 150px;
+    font-size: 120px;
+}
+
+.Grace{
+    text-align: center;
+    font-family: "Royal Acidbath Open";
+    color: #E29D00;
+    font-size: 140px;
 }
 
 .cowImage{
@@ -48,6 +55,8 @@
 
 .notCow{
     font-size: 20px;
+    font-family: 'Asul', sans-serif;
+    color: #624608;
 }
 
 @media screen and (max-width: 1100px){
@@ -59,7 +68,11 @@
         margin: 0px 20px 0px 20px;
     }
     
-    .hiImGrace{
+    .hiIm{
+        font-size: 80px;
+    }
+
+    .Grace{
         font-size: 90px;
     }
 
@@ -84,8 +97,12 @@
         margin: 0px 20px 0px 20px;
     }
     
-    .hiImGrace{
-        font-size: 70px;
+    .hiIm{
+        font-size: 50px;
+    }
+
+    .Grace{
+        font-size: 60px;
     }
 
     .cowImage{

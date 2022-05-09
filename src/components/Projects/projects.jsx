@@ -10,9 +10,9 @@ const Projects = () => {
 
             <div class="projectsContainer">
                 <div class="projectTile" id="fortune-teller">
-                    <Link to="/fortune-teller">
-                        <p class="link-text">want to test your luck today?</p>
-                        <h4 class="link-text">try out my new fortune teller!</h4>
+                    <Link to="/fortune-teller" class="link-text">
+                        <p>want to test your luck today?</p>
+                        <h4>try out my new fortune teller!</h4>
                         <img src={handbackbutton} alt="hand pointing left" class="hand-image"/>
                     </Link>
                     

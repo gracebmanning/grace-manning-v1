@@ -29,9 +29,9 @@ class FortuneTeller extends React.Component {
                     
                     <div class="fortunes-page-top">
                         <div class="fortunes-back-button">
-                            <Link to="/">
+                            <Link to="/" class="back-link">
                                 <img src={handbackbutton} alt="hand pointing left" class="hand-back-button"/>
-                                <p class="back-text">back to Home</p>
+                                <p>back to Home</p>
                             </Link>
                         </div>
                         <div class="fortunes-title-container">
@@ -46,15 +46,16 @@ class FortuneTeller extends React.Component {
                         </button>
                         <div class="fortunes-wrapper">
                             <p class="your-fortune-is">Your fortune is...</p>
-                            <p class="fortune-text" id="fortune-text-box">
+                            <p class="fortune-text">
                                 {displayFortune ? fortunesList[Math.floor(Math.random()*fortunesList.length)] : null}
                             </p>
                         </div>
                     </div>
-                    <div class="fortunes-footer">
+
+                    <footer class="fortunes-footer">
                         <p>for inquiries</p>
                         <p>email gracebmanning@gmail.com</p>
-                    </div>
+                    </footer>
                 </div>
             </div>
         );
