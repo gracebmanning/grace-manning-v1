@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.316dae82.css",
-    "main.js": "/static/js/main.928b7d55.js",
+    "main.css": "/static/css/main.8bfffe4c.css",
+    "main.js": "/static/js/main.2b0d614f.js",
     "static/media/tape2.png": "/static/media/tape2.ad15be7a0934be9f4edf.png",
     "static/media/hand-pointing-left.png": "/static/media/hand-pointing-left.a692aef69c23a1ad906f.png",
     "static/media/rollinghills.jpg": "/static/media/rollinghills.c624e34df4f22e3a4d3a.jpg",
@@ -10,11 +10,11 @@
     "static/media/Computerfont.woff": "/static/media/Computerfont.15e5644e4b226a5ba138.woff",
     "static/media/TiltPenX.woff": "/static/media/TiltPenX.7c88f853898f836e9770.woff",
     "index.html": "/index.html",
-    "main.316dae82.css.map": "/static/css/main.316dae82.css.map",
-    "main.928b7d55.js.map": "/static/js/main.928b7d55.js.map"
+    "main.8bfffe4c.css.map": "/static/css/main.8bfffe4c.css.map",
+    "main.2b0d614f.js.map": "/static/js/main.2b0d614f.js.map"
   },
   "entrypoints": [
-    "static/css/main.316dae82.css",
-    "static/js/main.928b7d55.js"
+    "static/css/main.8bfffe4c.css",
+    "static/js/main.2b0d614f.js"
   ]
 }
