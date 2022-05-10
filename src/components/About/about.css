@@ -93,7 +93,7 @@
     margin-bottom: 5px;
 }
 
-.tile .tileText{
+.tileText{
     text-align: left;
     margin-left: 20px;
     align-self: center;
@@ -150,6 +150,12 @@
 
     .tileTitle{
         font-size: 20px;
+    }
+
+    .tileText{
+        text-align: center;
+        margin-left: 0px;
+        align-self: center;
     }
 
     .tile{
