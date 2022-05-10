@@ -1,31 +1,41 @@
 import "./about.css";
+import WICS from "../../images/WICS-logo.png";
+import VH from "../../images/VH-logo.png";
 
 const About = () => {
     return(
         <div class="aboutBackground" id="about">
             <div class="aboutContainer">
                 <h2 class="aboutTitle">A little bit about me:</h2>
-                <div class="student">
-                    <p>I am a 3rd-year Computer Science student at UC Irvine, with a minor in Informatics.</p>
+                <div class="bio">
+                    <p>I am a 3rd-year Computer Science student at UC Irvine!</p>
+                    <p>pronouns: she/her</p>
+                    <p>hometown: San Diego, CA</p>
                 </div>
-
+                <h3>Organizations &amp; Campus Involvements</h3>
                 <div class="aboutTiles">
-                    <div class="past">
-                        <h2 class="tileTitle">I've been a...</h2>
-                        <p>math tutor,</p>
-                        <p>coding instructor,</p>
-                        <p>customer service representative,</p>
-                        <p>&amp; a personal stylist's assistant.</p>
+                    <div class="tile">
+                        <a class="org-link" href="https://wics.ics.uci.edu" target="_blank" rel="noreferrer">
+                            <img src={WICS} alt="WICS logo" class="org-logo" id="WICS-logo"/>
+                            <div class="tileText">
+                                <h3 class="tileTitle">Women in Information and Computer Sciences (WICS) at UCI</h3>
+                                <p>2021-2022: Marketing Chair</p>
+                                <p>2020-2021: Committee Member</p>
+                                <p>2019-2020: General Member</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="current">
-                        <h2 class="tileTitle">Currently, I'm a...</h2>
-                        <p>UCI tour guide,</p>
-                        <p>office assistant,</p>
-                        <p>personal assistant,</p>
-                        <p>&amp; Marketing Chair at WICS UCI.</p>
+                    <div class="tile">
+                        <a class="org-link" href="https://venushacks.com/" target="_blank" rel="noreferrer">
+                            <img src={VH} alt="VH logo" class="org-logo" id="VH-logo"/>
+                            <div class="tileText">
+                                <h3 class="tileTitle">VenusHacks 2022 Organizer</h3>
+                                <p>Marketing Commitee and website subcommittee member for UC Irvine's largest women-centric hackathon, VenusHacks!</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
-                <p><b>Looking for a more detailed breakdown?</b></p>
+                <p><b>Looking for more info?</b></p>
                 <div class="linksContainer">
                     <div class="bwLinkContainer">
                         <a class="bwLink" href="https://www.linkedin.com/in/grace-manning/" target="_blank" rel="noreferrer">

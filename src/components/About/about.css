@@ -24,8 +24,9 @@
     font-size: 18px;
 }
 
-.student{
+.bio{
     margin: 10px;
+    margin-bottom: 30px;
     font-size: 20px;
     width: 40%;
     text-align: center;
@@ -39,32 +40,63 @@
     margin: 10px 0px 10px 0px;
 }
 
+.tile{
+    flex: 1;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+
+    width: 45%;
+    padding: 20px;
+    margin: 10px;
+
+    background: white;
+    border-radius: 25px; 
+    
+    transform: scale(1);
+    transition-timing-function: ease-out;
+    transition: 0.4s;
+}
+
+.tile:hover{
+    transform: scale(1.03);
+    transition-timing-function: ease-in;
+    transition: 0.4s;
+}
+
+.org-link, .org-link:hover, .org-link:visited{
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.org-logo{
+    align-self: center;
+    width: 100px;
+}
+
+#WICS-logo{
+    height: 100px;
+}
+
+#VH-logo{
+    height: 95px;
+}
+
 .tileTitle{
     color: #209d9d;
+    margin-bottom: 5px;
 }
 
-.past{
+.tile .tileText{
+    text-align: left;
+    margin-left: 20px;
     align-self: center;
-    text-align: center;
-
-    width: 45%;
-    padding: 20px;
-    margin: 10px;
-
-    background: white;
-    border-radius: 25px;   
-}
-
-.current{
-    align-self: center;
-    text-align: center;
-    
-    width: 45%;
-    padding: 20px;
-    margin: 10px;
-
-    background: white;
-    border-radius: 25px;
 }
 
 .linksContainer{
@@ -72,18 +104,27 @@
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    
 }
 
 .bwLinkContainer{
     align-self: center;
     text-align: center;
-    width: 30%;
+    width: 25%;
     padding: 15px;
     margin: 10px;
 
     background-color: black;
     border-radius: 5px;
+
+    transform: scale(1);
+    transition-timing-function: ease-out;
+    transition: 0.4s;
+}
+
+.bwLinkContainer:hover{
+    transform: scale(1.03);
+    transition-timing-function: ease-in;
+    transition: 0.4s;
 }
 
 .bwLink{
@@ -103,14 +144,38 @@
         margin: 50px 20px 0px 20px;
     }
 
+    .bio{
+        width: 60%;
+    }
+
     .tileTitle{
-        font-size: 24px;
+        font-size: 20px;
+    }
+
+    .tile{
+        width: 60%;
+    }
+
+    .org-link, .org-link:hover, .org-link:visited{
+        flex-direction: column;
+    }
+
+    .org-logo{
+        width: 90px;
+    }
+
+    #WICS-logo{
+        height: 90px;
+    }
+    
+    #VH-logo{
+        height: 85px;
     }
 }
 
 @media screen and (max-width: 780px){
     .aboutContainer{
-        padding: 10px 10px 10px 10px;
+        padding: 10px 0px 10px 0px;
         margin: 50px 20px 0px 20px;
     }
     
@@ -118,8 +183,9 @@
         font-size: 20px;
     }
 
-    .student{
+    .bio{
         margin: 5px;
+        margin-bottom: 10px;
         font-size: 18px;
         width: 80%;
     }
@@ -135,28 +201,8 @@
         font-size: 18px;
     }
 
-    .past{
-        width: 80%;
-        padding: 10px 2px;
-        margin: 5px 2px;
-    
-        background: white;
-        border-radius: 25px;
-        
-        font-size: 16px;
-        line-height: 1.5;
-    }
-    
-    .current{
-        width: 80%;
-        padding: 10px 2px;
-        margin: 5px 2px;
-    
-        background: white;
-        border-radius: 25px;
-
-        font-size: 16px;
-        line-height: 1.5;
+    .tile{
+        width: 70%;
     }
 
     .linksContainer{
