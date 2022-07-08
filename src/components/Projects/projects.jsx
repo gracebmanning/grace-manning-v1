@@ -1,5 +1,6 @@
 import "./projects.css";
 import { FaBehanceSquare, FaMedium } from 'react-icons/fa';
+import { BsArrowRightCircle } from 'react-icons/bs';
 import { SiSociety6 } from 'react-icons/si';
 import {Link} from 'react-router-dom';
 import handbackbutton from "../../images/hand-pointing-left.png";
@@ -7,6 +8,15 @@ import handbackbutton from "../../images/hand-pointing-left.png";
 const Projects = () => {
     return(
         <div class="projectsBackground" id="projects">
+            <div class="projectsContainer">
+                <div class="projectTile" id="fortune-teller">
+                    <Link to="/gbm-studio" class="link-text">
+                        <p>check out my</p>
+                        <h4>current software projects!</h4>
+                        <BsArrowRightCircle class="right-arrow-icon"/>
+                    </Link>
+                </div>
+            </div>
 
             <div class="projectsContainer">
                 <div class="projectTile" id="fortune-teller">

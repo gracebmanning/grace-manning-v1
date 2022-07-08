@@ -121,6 +121,7 @@
 .fortunes-footer{
     text-align: center;
     margin-top: auto;
+    font-family: 'Asul', sans-serif;
 }
 
 @media screen and (max-width: 1100px){

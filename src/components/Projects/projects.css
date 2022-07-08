@@ -1,17 +1,22 @@
 /* padding: top right bottom left */
+.projectsBackground{
+    padding: 120px 0px 0px 0px;
+}
+
 .projectsContainer{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 10px 0px 10px 0px;
-    margin: 50px 70px 0px 70px;
+    margin: 10px 70px 0px 70px;
 }
 
 .projectTile{
     align-self: center;
     text-align: center;
     width: 28%;
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
+    position: relative;
 
     background-color: #FFF2D4;
     color: #624608;
@@ -45,6 +50,11 @@
     color: #624608;
 }
 
+.right-arrow-icon{
+    font-size: 35px;
+    margin-top: 15px;
+}
+
 .hand-image{
     transform: scaleX(-1);
     width: 100px;
@@ -59,6 +69,10 @@
 }
 
 @media screen and (max-width: 1100px){
+    .projectsBackground{
+        padding: 100px 0px 0px 0px;
+    }
+
     .projectTile{
         width: 25%;
     }
@@ -70,6 +84,10 @@
 }
 
 @media screen and (max-width: 780px){
+    .projectsBackground{
+        padding: 90px 0px 0px 0px;
+    }
+
     .projectsContainer{
         flex-direction: column;
         justify-content: center;

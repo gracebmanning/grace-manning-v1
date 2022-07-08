@@ -1,5 +1,5 @@
 import "./contact.css";
-import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
 const Contact = () => {
@@ -14,9 +14,6 @@ const Contact = () => {
                         </a>
                         <a href="https://github.com/gracebmanning/" target="_blank" rel="noreferrer">
                             <FaGithub class="icon"/>
-                        </a>
-                        <a href="https://www.instagram.com/gracebmanning/" target="_blank" rel="noreferrer">
-                            <FaInstagram class="icon"/>
                         </a>
                     </div>
                     <p class="emailMe">reach me by email at<br/><b>gracebmanning@gmail.com</b></p>
