@@ -8,7 +8,7 @@ const About = () => {
             <div class="aboutContainer">
                 <h2 class="aboutTitle">A little bit about me:</h2>
                 <div class="bio">
-                    <p>I am a 3rd-year Computer Science student at UC Irvine!</p>
+                    <p>I am a 4th-year Computer Science student at UC Irvine!</p>
                     <p>pronouns: she/her</p>
                     <p>hometown: San Diego, CA</p>
                 </div>
