@@ -9,16 +9,14 @@ const Projects = () => {
     return(
         <div class="projectsBackground" id="projects">
             <div class="projectsContainer">
-                <div class="projectTile" id="fortune-teller">
-                    <Link to="/gbm-studio" class="link-text">
+                <div class="projectTile" id="gbm-studio">
+                    <a href="https://gbm-studio.com" class="link-text" target="blank">
                         <p>check out my</p>
                         <h4>current software projects!</h4>
                         <BsArrowRightCircle class="right-arrow-icon"/>
-                    </Link>
+                    </a>
                 </div>
-            </div>
 
-            <div class="projectsContainer">
                 <div class="projectTile" id="fortune-teller">
                     <Link to="/fortune-teller" class="link-text">
                         <p>want to test your luck today?</p>

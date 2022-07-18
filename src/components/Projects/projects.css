@@ -14,6 +14,7 @@
 .projectTile{
     align-self: center;
     text-align: center;
+    height: 100%;
     width: 28%;
     padding: 10px 20px 10px 20px;
     position: relative;
@@ -40,8 +41,12 @@
     color: #624608;
 }
 
-#fortune-teller {
-    width: 100%;
+#gbm-studio{
+    width: 45%;
+}
+
+#fortune-teller{
+    width: 45%;
 }
 
 .link-text{
@@ -51,13 +56,13 @@
 }
 
 .right-arrow-icon{
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 15px;
 }
 
 .hand-image{
     transform: scaleX(-1);
-    width: 100px;
+    width: 80px;
     margin-top: 15px;
 }
 
@@ -97,7 +102,12 @@
 
     .projectTile{
         width: 90%;
-        margin: 10px 0px 0px 0px;
+        margin: 10px 0px 10px 0px;
+    }
+
+    #gbm-studio{
+        width: 90%;
+        margin: 10px 0px 10px 0px;
     }
 
     #fortune-teller{
