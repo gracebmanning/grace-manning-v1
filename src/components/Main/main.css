@@ -11,7 +11,7 @@
     padding: 20px;
     margin: 130px 70px 0px 70px;
     border-radius: 25px;
-    height: 75vh;
+    max-height: 75vh;
 }
 
 .mainContainer{

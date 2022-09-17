@@ -82,6 +82,16 @@
         width: 25%;
     }
 
+    #gbm-studio{
+        width: 40%;
+        margin: 10px 0px 10px 0px;
+    }
+
+    #fortune-teller{
+        width: 40%;
+        margin: 10px 0px 0px 0px;
+    }
+
     .projIcon{
         margin-top: 5px;
         font-size: 35px;
