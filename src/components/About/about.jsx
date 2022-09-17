@@ -43,7 +43,7 @@ const About = () => {
                         </a>
                     </div>
                     <div class="bwLinkContainer">
-                        <a class="bwLink" href="https://drive.google.com/file/d/17grKhnX2CD-TAqfCSaqwZXZBjKa7PwKi/view?usp=sharing" target="_blank" rel="noreferrer">
+                        <a class="bwLink" href="https://drive.google.com/file/d/1EtWTjtec1pUtiXHf5Z0BJx2TopWuFeMs/view?usp=sharing" target="_blank" rel="noreferrer">
                             view my resume
                         </a>
                     </div>
