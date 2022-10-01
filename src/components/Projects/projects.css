@@ -1,29 +1,41 @@
 /* padding: top right bottom left */
 .projectsBackground{
-    padding: 80px 0px 0px 0px;
+    margin-top: 40px;
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .projectsContainer{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 10px 0px 10px 0px;
-    margin: 10px 70px 0px 70px;
-}
-
-.projectTile{
-    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    height: 100%;
-    width: 28%;
-    padding: 10px 20px 10px 20px;
-    position: relative;
+    
+    padding: 50px;
 
     background-color: #FFF2D4;
-    color: #624608;
     border-radius: 25px;
+
     font-family: 'Asul', sans-serif;
     font-size: 18px;
+}
+
+.projectsTitle{
+    color: #624608;
+    margin-bottom: 10px;
+}
+
+.projectTile{    
+    margin: 10px;
+    padding: 10px;
+    width: 90%;
+
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #624608;
+    border-radius: 15px;
+    font-family: 'Asul', sans-serif;
 
     transform: scale(1);
     transition-timing-function: ease-out;
@@ -31,7 +43,7 @@
 }
 
 .projectTile:hover{
-    transform: scale(1.03);
+    transform: scale(1.01);
     transition-timing-function: ease-in;
     transition: 0.4s;
 }
@@ -41,18 +53,20 @@
     color: #624608;
 }
 
-#gbm-studio{
-    width: 45%;
-}
-
-#fortune-teller{
-    width: 45%;
-}
-
 .link-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
     text-decoration: none;
     font-family: 'Asul', sans-serif;
+    font-size: 20px;
     color: #624608;
+}
+
+.gbmstudioLogo{
+    width: 6em;
 }
 
 .right-arrow-icon{
@@ -63,23 +77,21 @@
 .hand-image{
     transform: scaleX(-1);
     width: 80px;
-    margin-top: 15px;
+    margin: 10px;
 }
 
 .projIcon{
     text-decoration: none;
-    margin: 0px;
+    margin: 10px;
     color: #624608;
     font-size: 50px;
 }
 
 @media screen and (max-width: 1100px){
     .projectsBackground{
-        padding: 100px 0px 0px 0px;
-    }
-
-    .projectTile{
-        width: 25%;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
     #gbm-studio{
@@ -108,6 +120,10 @@
         justify-content: center;
         padding: 10px 0px 10px 0px;
         margin: 10px 20px 0px 20px;
+    }
+
+    .projectTitle{
+        font-size: 20px;
     }
 
     .projectTile{

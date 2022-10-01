@@ -1,4 +1,5 @@
 import "./about.css";
+import profilePhoto from "../../images/2022-0724 circular 500.png";
 import WICS from "../../images/WICS-logo.png";
 import VH from "../../images/VH-logo.png";
 
@@ -6,11 +7,14 @@ const About = () => {
     return(
         <div class="aboutBackground" id="about">
             <div class="aboutContainer">
-                <h2 class="aboutTitle">A little bit about me:</h2>
-                <div class="bio">
-                    <p>I am a 4th-year Computer Science student at UC Irvine!</p>
-                    <p>pronouns: she/her</p>
-                    <p>hometown: San Diego, CA</p>
+                <h2 class="aboutTitle">About Me</h2>
+                <div class="aboutPhotoBio">
+                    <img class="profilePhoto" src={profilePhoto} alt="portrait of Grace laughing" />
+                    <div class="bio">
+                        <p>I am a 4th-year Computer Science student at UC Irvine!</p>
+                        <p>pronouns: she/her</p>
+                        <p>hometown: San Diego, CA</p>
+                    </div>
                 </div>
                 <h3>Organizations &amp; Campus Involvements</h3>
                 <div class="aboutTiles">
@@ -30,7 +34,9 @@ const About = () => {
                             <img src={VH} alt="VH logo" class="org-logo" id="VH-logo"/>
                             <div class="tileText">
                                 <h3 class="tileTitle">VenusHacks 2022 Organizer</h3>
-                                <p>Marketing Commitee and website subcommittee member for UC Irvine's largest women-centric hackathon, VenusHacks!</p>
+                                <p>UC Irvine's largest women-centric hackathon!</p>
+                                <p>2021-2022: Marketing Committee + website team</p>
+                                <p>2022-2023: Co-President</p>
                             </div>
                         </a>
                     </div>
