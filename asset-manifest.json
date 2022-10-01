@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.a106cab6.css",
-    "main.js": "/static/js/main.2c8b81bc.js",
+    "main.css": "/static/css/main.dce5b7c7.css",
+    "main.js": "/static/js/main.451e06b5.js",
+    "static/media/2022-0724 circular 500.png": "/static/media/2022-0724 circular 500.a65488a8c648ef5a131c.png",
     "static/media/WICS-logo.png": "/static/media/WICS-logo.634eba47168d634f4b3b.png",
     "static/media/VH-logo.png": "/static/media/VH-logo.62aefacd59ab881e5ab8.png",
     "static/media/tape2.png": "/static/media/tape2.ad15be7a0934be9f4edf.png",
     "static/media/hand-pointing-left.png": "/static/media/hand-pointing-left.a692aef69c23a1ad906f.png",
     "static/media/rollinghills.jpg": "/static/media/rollinghills.c624e34df4f22e3a4d3a.jpg",
     "static/media/cow.png": "/static/media/cow.798b7f9747eb51140eca.png",
+    "static/media/gbm-studio-logo_no-bg.png": "/static/media/gbm-studio-logo_no-bg.bbb897e16671caa7ddb8.png",
     "static/media/Royalacid_open.woff": "/static/media/Royalacid_open.ba9dbaee26c54a8851c5.woff",
     "static/media/Computerfont.woff": "/static/media/Computerfont.15e5644e4b226a5ba138.woff",
     "static/media/TiltPenX.woff": "/static/media/TiltPenX.7c88f853898f836e9770.woff",
     "index.html": "/index.html",
-    "main.a106cab6.css.map": "/static/css/main.a106cab6.css.map",
-    "main.2c8b81bc.js.map": "/static/js/main.2c8b81bc.js.map"
+    "main.dce5b7c7.css.map": "/static/css/main.dce5b7c7.css.map",
+    "main.451e06b5.js.map": "/static/js/main.451e06b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.a106cab6.css",
-    "static/js/main.2c8b81bc.js"
+    "static/css/main.dce5b7c7.css",
+    "static/js/main.451e06b5.js"
   ]
 }
