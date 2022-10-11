@@ -24,7 +24,7 @@ const Projects = () => {
                 </div>
                 <div class="projectTile">
                     <a class="link-text" href="https://medium.com/@gracebmanning" target="_blank" rel="noreferrer">
-                        <FaMedium class="projIcon"/>
+                        <FaMedium class="medium-icon"/>
                         <p>sometimes I write! view my blog on <b>Medium</b>.</p>
                     </a>
                 </div>

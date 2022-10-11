@@ -6,12 +6,12 @@
 }
 
 .fortunes-outer-container{
-    height: 100vh;
-    background-color: #E8E8FF;
+    min-height: 100vh;
+    background-color: #FFF2D4;
 }
 
 .fortunes-container{
-    padding: 20px;
+    padding: 50px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,6 +43,9 @@
     position: absolute;
     font-family: "TiltPenX";
     font-size: 100px;
+
+    display: flex;
+    flex-direction: row;
 }
 
 .fortunes-back-button{
@@ -50,6 +53,7 @@
     flex-direction: column;
     align-items: center;
     width: 120px;
+    margin-left: 10px;
 }
 
 .hand-back-button{
@@ -80,7 +84,8 @@
     font-family: 'Asul', sans-serif;
     font-size: 22px;
     width: 200px;
-    height: 60px;
+    margin-top: 50px;
+    padding: 10px;
     border: none;
     border-radius: 5%;
 }
@@ -110,12 +115,18 @@
 .fortune-text{
     margin: 10px;
     padding: 20px;
-    width: 80%;
-    height: 20vh;
-    text-align: center;
+    min-width: 80%;
+    min-height: 20vh;
     font-size: 40px;
+
     background-color: black;
     color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .fortunes-footer{

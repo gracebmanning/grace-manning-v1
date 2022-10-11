@@ -26,7 +26,6 @@ class FortuneTeller extends React.Component {
         return(
             <div class="fortunes-outer-container">
                 <div class="fortunes-container">
-                    
                     <div class="fortunes-page-top">
                         <div class="fortunes-back-button">
                             <Link to="/" class="back-link">

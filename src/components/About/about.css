@@ -164,9 +164,13 @@
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    .aboutPhotoBio{
+        width: 70%;
+    }
     
     .bio{
-        width: 60%;
+        width: 55%;
     }
 
     .tileTitle{
@@ -197,6 +201,10 @@
     
     #VH-logo{
         height: 85px;
+    }
+
+    .bwLinkContainer{
+        width: 30%;
     }
 }
 

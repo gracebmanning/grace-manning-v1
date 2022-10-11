@@ -50,12 +50,16 @@
     font-size: 40px;
     background: noone;
     border-radius: 20px;
+
+    transition: ease-out 0.3s;
+    transform: scale(1.0);
 }
 
 .icon:hover{
     background: #FFFDF2;
     border-radius: 20px;
-    transition: ease-in-out 0.4s;
+    transition: ease-in 0.3s;
+    transform: scale(1.03);
 }
 
 .emailMe{
@@ -106,7 +110,7 @@
     
     .icon{
         margin: 5px;
-        font-size: 30px;
+        font-size: 35px;
     }
 
     .emailMe{
