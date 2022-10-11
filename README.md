@@ -7,7 +7,6 @@
 #### <u>To run website, open in an IDE and type "npm start" in the terminal. Or view live version at https://www.grace-manning.com.</u>
 #### [Github Repository](https://github.com/gracebmanning/grace-manning)
 
-<br/>
 #### 1 - Assignment Points Completed
 I believe I have completed all 14 assignment points.
 
