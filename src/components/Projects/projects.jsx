@@ -13,7 +13,7 @@ const Projects = () => {
                 <div class="projectTile">
                     <a href="https://gbm-studio.com" class="link-text" target="blank">
                         <img class="gbmstudioLogo" src={GBMstudio} alt="A dark blue globe with text GBM Studio layered on top." />
-                        <p>check out my current software projects at <b>gbmstudio.com</b>!</p>
+                        <p>check out my current software projects at <b>gbm-studio.com</b>!</p>
                     </a>
                 </div>
                 <div class="projectTile">
