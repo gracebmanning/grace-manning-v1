@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.fe2e8a92.css",
-    "main.js": "/static/js/main.21aca074.js",
+    "main.js": "/static/js/main.71da3740.js",
     "static/media/2022-0724 circular 500.png": "/static/media/2022-0724 circular 500.a65488a8c648ef5a131c.png",
     "static/media/WICS-logo.png": "/static/media/WICS-logo.634eba47168d634f4b3b.png",
     "static/media/VH-logo.png": "/static/media/VH-logo.62aefacd59ab881e5ab8.png",
@@ -15,10 +15,10 @@
     "static/media/TiltPenX.woff": "/static/media/TiltPenX.7c88f853898f836e9770.woff",
     "index.html": "/index.html",
     "main.fe2e8a92.css.map": "/static/css/main.fe2e8a92.css.map",
-    "main.21aca074.js.map": "/static/js/main.21aca074.js.map"
+    "main.71da3740.js.map": "/static/js/main.71da3740.js.map"
   },
   "entrypoints": [
     "static/css/main.fe2e8a92.css",
-    "static/js/main.21aca074.js"
+    "static/js/main.71da3740.js"
   ]
 }
