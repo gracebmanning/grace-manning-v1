@@ -1,0 +1,183 @@
+@font-face{
+    font-family: "ArtNuvo";
+    src: url("../../fonts/Art-Nuvo.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.gbmstudio-container{
+    background-color: #FFF2D4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gbmstudio-nav{
+    background-color: rgba(79, 130, 199, 0.8);
+    font-family: 'Asul', sans-serif;
+    color: #FFF2D4;
+
+    padding: 10px;
+    margin-left: 20px;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-circle{
+    font-size: 30px;
+    margin-right: 5px;
+    transition-timing-function: ease-out;
+    transition: 0.4s;
+    color: #FFF2D4;
+}
+
+.left-circle:hover{
+    transition-timing-function: ease-in;
+    transition: 0.4s;
+    color: #004AAD;
+}
+
+.gbmstudio-welcome{
+    font-family: 'Asul', sans-serif;
+    margin-top: 60px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gbmstudio-welcometext{
+    font-size: 25px;
+    color: #004AAD;
+}
+
+.gbmstudio-logo{
+    width: 200px;
+}
+
+.gbmstudio-footer{
+    font-family: 'Asul', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 200px;
+    position: sticky;
+}
+
+.cowculator-container{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cowculator-title-container{
+    color: #F59751;
+    font-family: "ArtNuvo";
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.cowculator-title{
+    font-size: 60px;
+}
+
+.temp-text{
+    font-family: 'Asul', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cowculator-screenshots-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.cowculator-screenshot{
+    height: 60vh;
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.cowculator-privacy-tile{
+    background-color: #FFFDF2;
+    border-radius: 15px;
+
+    font-family: 'Asul', sans-serif;
+    font-size: 25px;
+    margin: 20px;
+    padding: 20px;
+    width: 30%;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    transition-timing-function: ease-out;
+    transition: 0.4s;
+    transform: scale(1);
+}
+
+.cowculator-privacy-tile:hover{
+    transition-timing-function: ease-in;
+    transition: 0.4s;
+    transform: scale(1.03);
+}
+
+.tile-link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1100px){
+    .gbmstudio-title{
+        font-size: 55px;
+    }
+    
+    .cowculator-title{
+        font-size: 90px;
+    }
+}
+
+
+@media screen and (max-width: 780px){
+    .gbmstudio-title{
+        font-size: 40px;
+    }
+
+    .cowculator-title{
+        font-size: 50px;
+    } 
+}
+
+@media screen and (max-width: 600px){
+    .cowculator-screenshots-container{
+        flex-direction: column;
+    }
+}

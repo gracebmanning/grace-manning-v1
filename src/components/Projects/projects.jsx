@@ -1,6 +1,5 @@
 import "./projects.css";
 import { FaMedium } from 'react-icons/fa';
-import { BsArrowRightCircle } from 'react-icons/bs';
 import {Link} from 'react-router-dom';
 import handbackbutton from "../../images/hand-pointing-left.png";
 import GBMstudio from "../../images/gbm-studio-logo_no-bg.png";
@@ -11,13 +10,13 @@ const Projects = () => {
             <div class="projectsContainer">
                 <h2 class="projectsTitle">Projects</h2>
                 <div class="projectTile">
-                    <a href="https://gbm-studio.com" class="link-text" target="blank">
+                    <Link to="/gbm-studio" class="link-text" onClick={() => window.scroll(0, 0)}>
                         <img class="gbmstudioLogo" src={GBMstudio} alt="A dark blue globe with text GBM Studio layered on top." />
-                        <p>check out my current software projects at <b>gbm-studio.com</b>!</p>
-                    </a>
+                        <p>enter the studio to view my current software projects</p>
+                    </Link>
                 </div>
                 <div class="projectTile">
-                    <Link to="/fortune-teller" class="link-text">
+                    <Link to="/fortune-teller" class="link-text" onClick={() => window.scroll(0, 0)}>
                         <p>want to test your luck today? <b>try out my fortune teller</b>!</p>
                         <img class="hand-image" src={handbackbutton} alt="hand pointing left" />
                     </Link>

@@ -33,7 +33,7 @@ const About = () => {
                         <a class="org-link" href="https://venushacks.com/" target="_blank" rel="noreferrer">
                             <img src={VH} alt="VH logo, a lavender planet" class="org-logo" id="VH-logo"/>
                             <div class="tileText">
-                                <h3 class="tileTitle">VenusHacks 2022 Organizer</h3>
+                                <h3 class="tileTitle">VenusHacks Organizer</h3>
                                 <p>UC Irvine's largest women-centric hackathon!</p>
                                 <p>2021-2022: Marketing Committee + website team</p>
                                 <p>2022-2023: Co-President</p>
