@@ -1,0 +1,93 @@
+/* padding: top, right, bottom, left */
+.research-container{
+    background-color: #FFF2D4;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Asul', sans-serif;
+}
+
+.research-nav{
+    background-color: rgba(211, 211, 242, 0.9);
+    color: #065C5C;
+
+    padding: 10px;
+    margin-left: 20px;
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-circle{
+    font-size: 30px;
+    margin-right: 5px;
+    transition-timing-function: ease-out;
+    color: #065C5C;
+    transition: 0.2s ease-in;
+}
+
+.left-circle:hover{
+    transition-timing-function: ease-in;
+    transition: 0.2s ease-out;
+    color: #E29D00;
+}
+
+.research-section{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #E8E8FF;
+    border-radius: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#research-h1{
+    color: #624608;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+}
+
+#research-h2{
+    color: #624608;
+    font-size: 20px;
+}
+
+#research-h3{
+    color: #624608;
+    font-size: 16px;
+}
+
+.research-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.research-link{
+    color: #065C5C;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px;
+}
+
+.research-poster{
+    width: 60%;
+}

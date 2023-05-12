@@ -35,8 +35,8 @@ const About = () => {
                             <div class="tileText">
                                 <h3 class="tileTitle">VenusHacks Organizer</h3>
                                 <p>UC Irvine's largest women-centric hackathon!</p>
-                                <p>2021-2022: Marketing Committee + website team</p>
                                 <p>2022-2023: Co-President</p>
+                                <p>2021-2022: Marketing Committee + website team</p>
                             </div>
                         </a>
                     </div>

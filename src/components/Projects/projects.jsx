@@ -3,12 +3,19 @@ import { FaMedium } from 'react-icons/fa';
 import {Link} from 'react-router-dom';
 import handbackbutton from "../../images/hand-pointing-left.png";
 import GBMstudio from "../../images/gbm-studio-logo_no-bg.png";
+import UROPLogo from "../../images/uci-urop-logo.png";
 
 const Projects = () => {
     return(
         <div class="projectsBackground" id="projects">
             <div class="projectsContainer">
                 <h2 class="projectsTitle">Projects</h2>
+                <div class="projectTile">
+                    <Link to="/undergrad-research" class="link-text" onClick={() => window.scroll(0,0)}>
+                        <p>check out my undergrad research project!</p>
+                        <img class="urop-logo" src={UROPLogo} alt="UCI UROP Logo" />
+                    </Link>
+                </div>
                 <div class="projectTile">
                     <Link to="/gbm-studio" class="link-text" onClick={() => window.scroll(0, 0)}>
                         <img class="gbmstudioLogo" src={GBMstudio} alt="A dark blue globe with text GBM Studio layered on top." />

@@ -28,7 +28,7 @@ const Main = () => {
                     <h1 class="cowculator-title">Cowculator</h1>
                 </div>
                 <p class="temp-text">A cow-themed calculator, available on iOS and Android!</p>
-                <p class="temp-text"><b>Projected release date: February 2023</b></p>
+                <p class="temp-text"><b>Projected release date: June 2023</b></p>
                 <br/>
                 <p class="temp-text">Main page preview:</p>
                 <div class="cowculator-screenshots-container">
