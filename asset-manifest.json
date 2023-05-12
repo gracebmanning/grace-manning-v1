@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9b773d3.css",
-    "main.js": "/static/js/main.8f381038.js",
+    "main.css": "/static/css/main.fd17c27b.css",
+    "main.js": "/static/js/main.bba2d8a9.js",
+    "static/media/UROP-Research-Poster.svg": "/static/media/UROP-Research-Poster.21b038e89ba446b7b4d63eedeb6f3156.svg",
     "static/media/2022-0724 circular 500.png": "/static/media/2022-0724 circular 500.a65488a8c648ef5a131c.png",
     "static/media/WICS-logo.png": "/static/media/WICS-logo.634eba47168d634f4b3b.png",
     "static/media/history-blue.png": "/static/media/history-blue.e3c6b0a58f1e1f968ab6.png",
@@ -11,6 +12,7 @@
     "static/media/main-pink.png": "/static/media/main-pink.8a089483c42c6a611dc0.png",
     "static/media/main-blue.png": "/static/media/main-blue.955ec458229cff2e9691.png",
     "static/media/rollinghills.jpg": "/static/media/rollinghills.c624e34df4f22e3a4d3a.jpg",
+    "static/media/uci-urop-logo.png": "/static/media/uci-urop-logo.ca9dc400a089099f61c5.png",
     "static/media/Art-Nuvo.woff": "/static/media/Art-Nuvo.e1efa2822d36f5de1fc1.woff",
     "static/media/settings-blue.png": "/static/media/settings-blue.9de6c9cca63f3a273f68.png",
     "static/media/cow.png": "/static/media/cow.798b7f9747eb51140eca.png",
@@ -19,11 +21,11 @@
     "static/media/Computerfont.woff": "/static/media/Computerfont.15e5644e4b226a5ba138.woff",
     "static/media/TiltPenX.woff": "/static/media/TiltPenX.7c88f853898f836e9770.woff",
     "index.html": "/index.html",
-    "main.f9b773d3.css.map": "/static/css/main.f9b773d3.css.map",
-    "main.8f381038.js.map": "/static/js/main.8f381038.js.map"
+    "main.fd17c27b.css.map": "/static/css/main.fd17c27b.css.map",
+    "main.bba2d8a9.js.map": "/static/js/main.bba2d8a9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9b773d3.css",
-    "static/js/main.8f381038.js"
+    "static/css/main.fd17c27b.css",
+    "static/js/main.bba2d8a9.js"
   ]
 }
